@@ -1,0 +1,144 @@
+{
+    "en": {
+        "home": {
+            "1": "Evaluation metrics to quantify and visualize the substrate scope",
+            "2": "How to use",
+            "3": "Data entry",
+            "4": "Standardize",
+            "5": "Enter the number of reaction conditions",
+            "6": "Upload the substrate data set",
+            "7": "Please enter the number of reaction conditions",
+            "8": "Input data",
+            "9": "Number of substrates",
+            "10": "Number of descriptors",
+            "11": "All descriptors have been standardized",
+            "12": "Advanced settings",
+            "13": "Radius",
+            "14": "Number of bits",
+            "15": "Apply",
+            "16": "Reset",
+            "17": "Descriptors"
+        },
+        "ecfp_onbits": {
+            "1": "Partial structures corresponding to the ECFP OnBits"
+        },
+        "ecfp_tanimoto": {
+            "1": "Average values",
+            "2": "Maximum values",
+            "3": "Combinations of molecules providing maximum values",
+            "4": "Combinations of molecules providing minimum values",
+            "5": "Tanimoto distance"
+        },
+        "range": {
+            "1": "Bar chart",
+            "2": "Table",
+            "3": "Range for each descriptor"
+        },
+        "distance": {
+            "1": "Distances from the average coordinate to each substrate"
+        },
+        "convexhull": {
+            "1": "Explained variance ratio of PCA",
+            "2": "PCA coordinate system",
+            "3": "Correlations between the principal components and the descriptors"
+        },
+        "information": {
+            "1": "System",
+            "2": "Number of cores",
+            "3": "Number of threads",
+            "4": "Max turbo frequency",
+            "5": "CPU utilization",
+            "6": "RAM",
+            "7": "Total",
+            "8": "Used",
+            "9": "Available",
+            "10": "Memory utilization "
+        },
+        "links": {
+            "1": "Original Article",
+            "2": "Our Laboratory",
+            "3": "Yokohama National University"
+        },
+        "common": {
+            "1": "Positive",
+            "2": "Negative",
+            "3": "No data has been entered",
+            "4": "Calculating...",
+            "5": "Loading...",
+            "6": "Detailed information",
+            "7": "Actual values",
+            "8": "Coverage"
+        }
+    },
+    "ja": {
+        "home": {
+            "1": "基質適用範囲を定量化・可視化する評価指標",
+            "2": "使い方",
+            "3": "データ入力",
+            "4": "標準化を行う",
+            "5": "反応条件の数を入力",
+            "6": "基質データセットをアップロード",
+            "7": "反応条件の数を入力してください",
+            "8": "入力データ",
+            "9": "基質の数",
+            "10": "記述子の数",
+            "11": "全ての記述子を標準化しました",
+            "12": "詳細設定",
+            "13": "半径",
+            "14": "ビット数",
+            "15": "適用",
+            "16": "リセット",
+            "17": "記述子"
+        },
+        "ecfp_onbits": {
+            "1": "ECFP OnBitsに対応する部分構造"
+        },
+        "ecfp_tanimoto": {
+            "1": "平均値",
+            "2": "最大値",
+            "3": "最大値の組み合わせ",
+            "4": "最小値の組み合わせ",
+            "5": "タニモト距離"
+        },
+        "range": {
+            "1": "棒グラフ",
+            "2": "表",
+            "3": "各記述子の範囲"
+        },
+        "distance": {
+            "1": "平均座標から各基質までの距離"
+        },
+        "convexhull": {
+            "1": "PCA寄与率",
+            "2": "PCA座標系",
+            "3": "主成分と記述子の間の相関係数"
+        },
+        "information": {
+            "1": "システム",
+            "2": "物理コア数",
+            "3": "論理コア数",
+            "4": "最大周波数",
+            "5": "CPU使用率",
+            "6": "メモリ",
+            "7": "総メモリ",
+            "8": "使用中",
+            "9": "空き",
+            "10": "使用率"
+        },
+        "links": {
+            "1": "原著論文",
+            "2": "研究室ホームページ",
+            "3": "横浜国立大学"
+        },
+        "common": {
+            "1": "正例",
+            "2": "負例",
+            "3": "データが入力されていません",
+            "4": "計算中...",
+            "5": "読み込み中...",
+            "6": "詳細情報",
+            "7": "実際の値",
+            "8": "被覆率"
+        }
+    }
+}
