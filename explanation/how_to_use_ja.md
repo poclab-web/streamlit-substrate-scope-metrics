@@ -51,7 +51,7 @@
 - 画面左側のサイドバーから、計算したい指標を選択してください。
 - 全てのグラフは、拡大や縮小の操作が可能です。
 
-> :material/warning: 注意  
+> :material/exclamation: 注意  
 > - ECFP Tanimotoの計算には、2つ以上の正例が必要です。  
 > - ECFP ConvexHullとConvexHullの計算には、3つ以上の正例が必要です。  
 > - ConvexHullの計算は、記述子が2次元以上である必要があります。  

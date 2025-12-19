@@ -51,7 +51,7 @@
 - Select a metric from the sidebar on the left side of the screen.
 - All graphs can be zoomed in or out.
 
-> :material/warning: Warning  
+> :material/exclamation: Notice  
 > - ECFP Tanimoto calculations require at least two positive examples.  
 > - ECFP ConvexHull and ConvexHull calculations require at least three positive examples.  
 > - ConvexHull calculations require descriptors to be two-dimensional or higher.  
