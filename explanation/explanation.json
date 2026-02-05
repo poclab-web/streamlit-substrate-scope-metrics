@@ -17,7 +17,8 @@
             "14": "Number of bits",
             "15": "Apply",
             "16": "Reset",
-            "17": "Descriptors"
+            "17": "Descriptors",
+            "18": "Please label positive examples as 1, negative examples as -1, and unlabeled examples as 0 for the following reaction conditions"
         },
         "ecfp_onbits": {
             "1": "Partial structures corresponding to the ECFP OnBits"
@@ -35,7 +36,7 @@
             "3": "Range for each descriptor"
         },
         "distance": {
-            "1": "Distances from the average coordinate to each substrate"
+            "1": "Distances from the centroid to each substrate"
         },
         "convexhull": {
             "1": "Explained variance ratio of PCA",
@@ -88,7 +89,8 @@
             "14": "ビット数",
             "15": "適用",
             "16": "リセット",
-            "17": "記述子"
+            "17": "記述子",
+            "18": "以下の反応条件について 正例は1、負例は-1、ラベル無しは0としてください"
         },
         "ecfp_onbits": {
             "1": "ECFP OnBitsに対応する部分構造"

@@ -55,11 +55,38 @@ if st.session_state["loaded"] == False:
                 st.session_state["dataset_name"] = dataset.name
 
                 df1 = pd.read_csv(io.StringIO(st.session_state["dataset"]))
-                df1.iloc[:, 0] = smiles_to_inchi(df1.iloc[:, 0])
-                st.session_state["dataset"] = df1.to_csv(index=False)
 
-                st.session_state["loaded"] = True
-                st.rerun()
+                li = []
+                for i in range(st.session_state["n_conditions"]):
+                    condition = df1.columns[i+1]
+                    s = set(df1[condition].unique())
+                    for j in (1, 0, -1):
+                        s.discard(j)
+
+                    if len(s) != 0:
+                        li.append(condition)
+                    
+                if len(li) == 0:
+                    df1.iloc[:, 0] = smiles_to_inchi(df1.iloc[:, 0])
+                    st.session_state["dataset"] = df1.to_csv(index=False)
+
+                    st.session_state["loaded"] = True
+                    st.rerun()
+                
+                else:
+                    st.warning(
+                        explanation[st.session_state["language"]]["home"]["18"], icon=":material/warning:"
+                        )
+                    st.warning(", ".join(li))
+                    st.button(
+                        explanation[st.session_state["language"]]["home"]["16"],
+                        on_click=reset,
+                        width="stretch"
+                        )
+                    
+                    st.session_state["dataset"] = None
+                    st.stop()
+
 
 else:
     st.header(explanation[st.session_state["language"]]["home"]["8"])
