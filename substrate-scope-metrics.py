@@ -78,11 +78,6 @@ if st.session_state["loaded"] == False:
                         explanation[st.session_state["language"]]["home"]["18"], icon=":material/warning:"
                         )
                     st.warning(", ".join(li))
-                    st.button(
-                        explanation[st.session_state["language"]]["home"]["16"],
-                        on_click=reset,
-                        width="stretch"
-                        )
                     
                     st.session_state["dataset"] = None
                     st.stop()
