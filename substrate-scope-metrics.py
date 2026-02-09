@@ -77,6 +77,9 @@ if st.session_state["loaded"] == False:
                     st.warning(
                         explanation[st.session_state["language"]]["home"]["18"], icon=":material/warning:"
                         )
+                    st.warning(
+                        explanation[st.session_state["language"]]["home"]["19"], icon=":material/warning:"
+                        )
                     st.warning(", ".join(li))
                     
                     st.session_state["dataset"] = None

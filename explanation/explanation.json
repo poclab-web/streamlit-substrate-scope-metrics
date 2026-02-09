@@ -18,7 +18,8 @@
             "15": "Apply",
             "16": "Reset",
             "17": "Descriptors",
-            "18": "Please label positive examples as 1, negative examples as -1, and unlabeled examples as 0 for the following reaction conditions"
+            "18": "Please verify that the correct number of reaction conditions has been entered",
+            "19": "Please label positive examples as 1, negative examples as -1, and unlabeled examples as 0 for the following reaction conditions"
         },
         "ecfp_onbits": {
             "1": "Partial structures corresponding to the ECFP OnBits"
@@ -90,7 +91,8 @@
             "15": "適用",
             "16": "リセット",
             "17": "記述子",
-            "18": "以下の反応条件について 正例は1、負例は-1、ラベル無しは0としてください"
+            "18": "反応条件の数が正しく入力されているか確認してください",
+            "19": "以下の反応条件について 正例は1、負例は-1、ラベル無しは0としてください"
         },
         "ecfp_onbits": {
             "1": "ECFP OnBitsに対応する部分構造"
