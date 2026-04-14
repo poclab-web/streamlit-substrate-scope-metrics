@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![](https://img.shields.io/badge/Streamlit-1.52-red?logo=streamlit)
 ![](https://img.shields.io/badge/License-MIT-orange)
-[![](https://img.shields.io/badge/DOI--brightgreen)]()
+[![](https://img.shields.io/badge/DOI-10.1021/acs.jcim.5c03167-brightgreen)](https://doi.org/10.1021/acs.jcim.5c03167)
 
 Evaluation metrics to quantify and visualize the substrate scope
 
@@ -105,7 +105,7 @@ streamlit run substrate-scope-metrics.py
 
 ## Original Article
 
-in preparation.
+Ichizawa, K.; Nishii, T.; Gotoh, H. Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics. *Journal of Chemical Information and Modeling* **2026**, *66* (7), 3878–3891. DOI: [10.1021/acs.jcim.5c03167](https://doi.org/10.1021/acs.jcim.5c03167)
 
 
 ## License
