@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![](https://img.shields.io/badge/Streamlit-1.52-red?logo=streamlit)
 ![](https://img.shields.io/badge/License-MIT-orange)
-[![](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19564342-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19564342)
+[![](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19564343-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19564343)
 [![](https://img.shields.io/badge/Article-10.1021/acs.jcim.5c03167-brightgreen)](https://doi.org/10.1021/acs.jcim.5c03167)
 
 Evaluation metrics to quantify and visualize the substrate scope
@@ -104,9 +104,13 @@ streamlit run substrate-scope-metrics.py
 - Clicking the `Reset` button at the bottom of the `Home` will clear the input data and all cached information.
 
 
-## Original Article
+## Citation
 
+### Academic Paper
 Ichizawa, K.; Nishii, T.; Gotoh, H. Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics. *Journal of Chemical Information and Modeling* **2026**, *66* (7), 3878–3891. DOI: [10.1021/acs.jcim.5c03167](https://doi.org/10.1021/acs.jcim.5c03167)
+
+### Streamlit Software
+Ichizawa, K. poclab-web/streamlit-substrate-scope-metrics: Ver.1.0. Zenodo; 2026. DOI: [10.5281/zenodo.19564343](https://doi.org/10.5281/zenodo.19564343)
 
 
 ## License
