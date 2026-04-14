@@ -3,7 +3,8 @@
 ![](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![](https://img.shields.io/badge/Streamlit-1.52-red?logo=streamlit)
 ![](https://img.shields.io/badge/License-MIT-orange)
-[![](https://img.shields.io/badge/DOI-10.1021/acs.jcim.5c03167-brightgreen)](https://doi.org/10.1021/acs.jcim.5c03167)
+[![](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19564342-blue?logo=zenodo)](https://doi.org/10.5281/zenodo.19564342)
+[![](https://img.shields.io/badge/Article-10.1021/acs.jcim.5c03167-brightgreen)](https://doi.org/10.1021/acs.jcim.5c03167)
 
 Evaluation metrics to quantify and visualize the substrate scope
 
